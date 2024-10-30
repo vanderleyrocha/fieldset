@@ -1,0 +1,119 @@
+
+::selection { background: #dd72a6; color: #fff; text-shadow: none; }
+
+/* Links */
+a {
+  color: #dd72a6;
+  text-decoration: none;
+  transition: all .15s ease-in-out;
+}
+a:hover,
+a:focus { color: #AF2D6D; }
+
+
+/* Buttons - restyling Bootstrap buttons with only simple CSS, no CSS variables (custom properties) */
+.btn.azm-btn-primary { background-color: #dd72a6; border-color: #dd72a6; }
+
+.btn.azm-btn-primary:hover { background-color: #AF2D6D; border-color: #AF2D6D; }
+.btn.azm-btn-primary:active { background-color: #AF2D6D; border-color: #AF2D6D; }
+.btn.azm-btn-primary:focus { background-color: #AF2D6D; border-color: #AF2D6D; color: #fff; }
+.btn.azm-btn-primary:active:focus { background-color: #AF2D6D; border-color: #AF2D6D; color: #fff; }
+
+.btn.azm-btn-primary:focus-visible {
+  background-color: #AF2D6D;
+  border-color: #AF2D6D;
+  box-shadow: 0 0 0 0.25rem rgba(221, 114, 166, .5);
+}
+
+
+/* Custom utility classes */
+
+.azm-spacer {}
+
+.azm-color-444 { color: #444; }
+.azm-color-666 { color: #666; }
+.azm-color-888 { color: #888; }
+.azm-color-dd72a6 { color: #dd72a6; }
+.azm-color-ccc { color: #ccc; }
+.azm-grey { color: #aaa; }
+
+.azm-font-size-1-15 { font-size: 1.15rem; }
+
+.azm-line-height-2-5 { line-height: 2.5rem; }
+
+.azm-border-dashed { border-bottom: 1px dashed; }
+
+.azm-grey-background { background-color: #f8f8f8; }
+.azm-background-3d3d3d { background-color: #3d3d3d; }
+.azm-background-444 { background-color: #444; }
+.azm-background-dd72a6 { background-color: #dd72a6; }
+
+
+/* Header */
+#header {
+  background-image: url(assets/bg-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#header h1 { text-shadow: 0 1px 6px rgb(51 51 51 / 75%); }
+#header p { text-shadow: 0 1px 5px rgb(51 51 51 / 75%); }
+
+
+/* Section 1 - Form 1 */
+#section-1 .form-control:focus {
+  border-color: #dd72a6;
+  box-shadow: 0 0 0 0.25rem rgba(221, 114, 166, .5);
+}
+
+#section-1 .form-check-input:checked {
+  background-color: #dd72a6;
+  border-color: #dd72a6;
+}
+
+#section-1 .form-check-input:focus {
+  border-color: #dd72a6;
+  box-shadow: 0 0 0 0.25rem rgba(221, 114, 166, .5);
+}
+
+
+/* Section 2 - Form 2 */
+#section-2 {
+  background-image: url(assets/bg-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#section-2 fieldset {
+  border: 1px dotted #fff;
+}
+
+#section-2 .form-control {
+  border-color: #fff;
+}
+
+#section-2 .form-control:focus {
+  border-color: #dd72a6;
+  box-shadow: 0 0 0 0.25rem rgba(221, 114, 166, .5);
+}
+
+#section-2 .form-check-input:checked {
+  background-color: #dd72a6;
+  border-color: #dd72a6;
+}
+
+#section-2 .form-check-input:focus {
+  border-color: #dd72a6;
+  box-shadow: 0 0 0 0.25rem rgba(221, 114, 166, .5);
+}
+
+
+/* Footer */
+footer a.azm-border-dashed:hover,
+footer a.azm-border-dashed:focus { outline: 0; color: #fff; }
+
+.to-top a:hover,
+.to-top a:focus { outline: 0; color: #fff; }
+
